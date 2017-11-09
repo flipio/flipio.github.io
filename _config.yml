@@ -8,17 +8,17 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-twitter: # add your Twitter handle
+author: Filip Jelic # add your name
+author-img: filip-jelic.jpg # add your photo
+about-author: Software engineer with a great passion for javascript. Currently working in the biotechnology industry. # add description
+twitter: https://twitter.com/flipioo # add your Twitter handle
 facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
-linkedin: # add your Linkedin handle
-email: # add your Email address
+github: flipio # add your Github handle
+linkedin: https://www.linkedin.com/in/filip-jelic-ff/ # add your Linkedin handle
+email: jelic.filip@gmail.com # add your Email address
 
 # Disqus
-discus-identifier: filipjelic # add your discus identifier
+discus-identifier: flipioo # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
