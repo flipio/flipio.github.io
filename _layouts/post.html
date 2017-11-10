@@ -1,9 +1,18 @@
 ---
 layout: main
 ---
+
+{% if page.noHeaderImg == true %}
+  {% assign showHeaderImg = false %}
+{% elsif page.img %}
+  {% assign showHeaderImg = true %}
+{% else %}
+  {% assign showHeaderImg = false %}
+{% endif %}
+
 <article class="article-page">
   <div class="page-content">
-    {% if page.img %}
+    {% if showHeaderImg %}
     <div class="page-cover-image">
       <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
     </div> <!-- End Page Cover Image -->

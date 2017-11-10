@@ -99,6 +99,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  width: 100%;
 }
 
 ::-moz-selection {
@@ -129,5 +130,8 @@ table tfoot td {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 @import 'parts/tag';
 
+/* - - - - - - - - - - Search - - - - - - - - - - */
+@import 'components/search';
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
+

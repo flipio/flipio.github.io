@@ -7,7 +7,8 @@
   "author": "Artem Sheludko",
   "license": "MIT",
   "scripts": {
-    "start": "gulp"
+    "start": "bundle exec jekyll serve",
+    "build": "gulp jekyll-build"
   },
   "dependencies": {
     "browser-sync": "^2.18.13",

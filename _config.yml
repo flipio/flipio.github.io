@@ -12,7 +12,7 @@ author: Filip Jelic # add your name
 author-img: filip-jelic.jpg # add your photo
 about-author: Software engineer with a great passion for javascript. Currently working in the biotechnology industry. # add description
 twitter: flipioo # add your Twitter handle
-facebook: # add your Facebook handle
+facebook: filip.jelic # add your Facebook handle
 github: flipio # add your Github handle
 linkedin: filip-jelic-ff # add your Linkedin handle
 email: jelic.filip@gmail.com # add your Email address
@@ -21,7 +21,7 @@ email: jelic.filip@gmail.com # add your Email address
 discus-identifier: filipjelic-com # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: # UA-47345139-1 # Google Analytics
 
 sass:
   style: compressed
