@@ -11,14 +11,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Filip Jelic # add your name
 author-img: filip-jelic.jpg # add your photo
 about-author: Software engineer with a great passion for javascript. Currently working in the biotechnology industry. # add description
-twitter: https://twitter.com/flipioo # add your Twitter handle
+twitter: flipioo # add your Twitter handle
 facebook: # add your Facebook handle
 github: flipio # add your Github handle
 linkedin: filip-jelic-ff # add your Linkedin handle
 email: jelic.filip@gmail.com # add your Email address
 
 # Disqus
-discus-identifier: flipioo # add your discus identifier
+discus-identifier: filipjelic-com # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
