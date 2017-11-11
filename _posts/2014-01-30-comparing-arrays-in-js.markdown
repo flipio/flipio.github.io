@@ -117,6 +117,7 @@ Array.prototype.equals = function (array) {
 }
 ```
 
-Hope this helped, 
+Hope this helped,
+ 
 Cheers
 

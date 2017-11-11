@@ -97,7 +97,9 @@ $icon-offset-left: 11px;
 
         li a:before {
             display:inline-block;
-            content: '-';
+            // content: '-';
+            content: '\2022';
+            color: #d1cfd1;
             margin-right: 4px;
         }
 
