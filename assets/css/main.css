@@ -1421,7 +1421,7 @@ a.newer-posts:hover {
 }
 
 .search-wrapper .results-container li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #d1cfd1;
 }
 
 .search-wrapper .results-container li:last-child {
