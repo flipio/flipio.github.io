@@ -1398,7 +1398,7 @@ a.newer-posts:hover {
 .search-wrapper .results-container {
   width: 100%;
   max-width: 300px;
-  padding-left: 15px;
+  padding-left: 8px;
   margin: 0 auto;
   font-size: 1rem;
 }
@@ -1417,7 +1417,8 @@ a.newer-posts:hover {
   display: inline-block;
   content: '\2022';
   color: #d1cfd1;
-  margin-right: 4px;
+  padding-left: 4px;
+  margin-right: 3px;
 }
 
 .search-wrapper .results-container li {

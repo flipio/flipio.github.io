@@ -1,7 +1,9 @@
 $height: 40px;
 $max-width: 300px;
+
 $input-color: #d9d9d9;
 $input-color-selected: #f2f2f2;
+$input-placeholder-color: #65737e;
 
 $icon-offset-top: 8px;
 $icon-offset-left: 11px;
@@ -46,22 +48,22 @@ $icon-offset-left: 11px;
         }
 
         .search-container input#search-posts::-webkit-input-placeholder {
-            color: #65737e;
+            color: $input-placeholder-color;
         }
         
         .search-container input#search-posts:-moz-placeholder { /* Firefox 18- */
-            color: #65737e;  
+            color: $input-placeholder-color;  
         }
         
         .search-container input#search-posts::-moz-placeholder {  /* Firefox 19+ */
-            color: #65737e;  
+            color: $input-placeholder-color;  
         }
         
         .search-container input#search-posts:-ms-input-placeholder {  
-            color: #65737e;  
+            color: $input-placeholder-color;  
         }
 
-        .search-container .icon{
+        .search-container .icon {
             position: absolute;
             top: 50%;
             margin-left: $icon-offset-left;
@@ -81,7 +83,7 @@ $icon-offset-left: 11px;
 
         width: 100%;
         max-width: $max-width;
-        padding-left: 15px;
+        padding-left: 8px;
         margin: 0 auto;
         font-size : 1rem;
 
@@ -100,8 +102,8 @@ $icon-offset-left: 11px;
             // content: '-';
             content: '\2022';
             color: #d1cfd1;
-            margin-right: 4px;
-        }
+            padding-left: 4px;
+            margin-right: 3px;        }
 
         li {
             border-bottom: 1px solid #d1cfd1;
