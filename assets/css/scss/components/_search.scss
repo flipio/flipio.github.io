@@ -103,7 +103,8 @@ $icon-offset-left: 11px;
             content: '\2022';
             color: #d1cfd1;
             padding-left: 4px;
-            margin-right: 3px;        }
+            margin-right: 3px;
+            
 
         li {
             border-bottom: 1px solid #d1cfd1;
@@ -123,6 +124,8 @@ $icon-offset-left: 11px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+
+            border-radius: 4px;
           
         }
 
