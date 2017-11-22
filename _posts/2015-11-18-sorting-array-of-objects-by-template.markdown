@@ -45,9 +45,9 @@ Array.prototype.sortByTemplate = function (tpl, key) {
             length = tpl.length,
             len = this.length;
 
-        for (i = 0; i&lt;length;i ++) {
+        for (i = 0; i < length;i ++) {
 
-            for (j = 0; j&lt;len; j++) {
+            for (j = 0; j < len; j++) {
 
                 if (this[j][key] === tpl[i]) {
 
@@ -82,9 +82,9 @@ Array.prototype.sortByTemplate = function (tpl, key) {
             length = tpl.length,
             len = this.length;
 
-        for (i = 0; i&lt;length;i ++) {
+        for (i = 0; i < length;i ++) {
 
-            for (j = 0; j&lt;len; j++) {
+            for (j = 0; j < len; j++) {
 
                 if (this[j][key] === tpl[i]) {
 
