@@ -6,22 +6,21 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Author Settings
-author: Filip Jelic # add your name
-author-img: filip-jelic.jpg # add your photo
+author: Filip Jelic 
+author-img: filip-jelic.jpg
 about-author: Software engineer with a great passion for javascript. Currently working in the biotechnology industry. # add description
-twitter: flipioo # add your Twitter handle
-facebook: filip.jelic # add your Facebook handle
-github: flipio # add your Github handle
-linkedin: filip-jelic-ff # add your Linkedin handle
-email: jelic.filip@gmail.com # add your Email address
+twitter: flipioo 
+facebook: filip.jelic
+github: flipio 
+linkedin: filip-jelic-ff
+email: jelic.filip@gmail.com
 
 # Disqus
 discus-identifier: filipjelic-com # add your discus identifier
 
 # Tracker
-analytics: # UA-47345139-1 # Google Analytics
+analytics: UA-47345139-1 # Google Analytics
 
 sass:
   style: compressed
