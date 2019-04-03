@@ -226,6 +226,10 @@
     .icon-link-item {
       display: inline-block;
       margin-left: 5px;
+
+      &:first-child {
+        padding-top: 1px;
+      }
     }
 
     .icon-link {

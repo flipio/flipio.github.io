@@ -1149,6 +1149,10 @@ table tfoot td {
   margin-left: 5px;
 }
 
+.resume-page .icon-links .icon-link-item:first-child {
+  padding-top: 1px;
+}
+
 .resume-page .icon-links .icon-link {
   display: inline-block;
 }
