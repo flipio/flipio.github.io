@@ -52,7 +52,7 @@ resume_contact_address:         ""
 resume_header_contact_info:     "Belgrade • +381600918818 • jelic.filip@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>I am a software engineer with a great passion for javascript. Currently working in the container monitoring industry. Mainly i focus on building scalable web apps, but you will find me building CLIs and data crunching backends on the same day.</p>"
+resume_header_intro: "<p>I am a software engineer with a great passion for javascript. Currently working in the container monitoring industry. Mainly my focus is on building scalable web apps, but you will find me building CLIs and data crunching backends on the same day.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
