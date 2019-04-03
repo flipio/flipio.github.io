@@ -14,6 +14,22 @@
 .about {
   margin: 0 0 40px;
   text-align: center;
+
+  .resume-link {
+    color: $dark-gray;
+
+      a {
+      text-decoration: none;
+      color: $dark;
+      font-weight: 400;
+
+      &:hover {
+        color: $dark-gray;
+      }
+    }
+
+  }
+
   .cover-author-image {
     width: 100px;
     height: 100px;

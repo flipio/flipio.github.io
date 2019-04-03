@@ -3,6 +3,8 @@
 @import 'variables';
 
 *, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -121,6 +123,9 @@ table tfoot td {
   clear: both;
 }
 
+/* - - - - - - - - - - Resume - - - - - - - - - - */
+@import 'parts/resume-page';
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 
@@ -132,6 +137,8 @@ table tfoot td {
 
 /* - - - - - - - - - - Search - - - - - - - - - - */
 @import 'components/search';
+
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
+
 

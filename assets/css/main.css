@@ -765,7 +765,7 @@ template {
 
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -879,12 +879,12 @@ table tfoot td {
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #ffffff;
+  color: #fff;
 }
 
 ::selection {
   background: rgba(38, 57, 89, 0.8);
-  color: #ffffff;
+  color: #fff;
 }
 
 .clearfix::before, .clearfix::after {
@@ -894,6 +894,423 @@ table tfoot td {
 
 .clearfix::after {
   clear: both;
+}
+
+/* - - - - - - - - - - Resume - - - - - - - - - - */
+.resume-page .wrapper:before,
+.resume-page .wrapper:after {
+  content: "";
+  display: table;
+}
+
+.resume-page .wrapper:after {
+  clear: both;
+}
+
+.resume-page .wrapper {
+  max-width: 728px;
+  padding: 0 24px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+.resume-page .group:before,
+.resume-page .group:after {
+  content: "";
+  display: table;
+}
+
+.resume-page .group:after {
+  clear: both;
+}
+
+.resume-page .group {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+.resume-page ::-moz-selection {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none;
+}
+
+.resume-page ::selection {
+  background: rgba(51, 51, 51, 0.8);
+  color: #fff;
+  text-shadow: none;
+}
+
+.resume-page .container {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.resume-page .container:before {
+  display: table;
+  content: "";
+}
+
+.resume-page .container:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.resume-page .columns {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.resume-page .columns:before {
+  display: table;
+  content: "";
+}
+
+.resume-page .columns:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.resume-page .column {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.resume-page .one-third {
+  width: 33.333333%;
+}
+
+.resume-page .two-thirds {
+  width: 66.666667%;
+}
+
+.resume-page .one-fourth {
+  width: 25%;
+}
+
+.resume-page .one-half {
+  width: 50%;
+}
+
+.resume-page .three-fourths {
+  width: 75%;
+}
+
+.resume-page .one-fifth {
+  width: 20%;
+}
+
+.resume-page .four-fifths {
+  width: 80%;
+}
+
+.resume-page .single-column {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.resume-page .table-column {
+  display: table-cell;
+  width: 1%;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: top;
+}
+
+.resume-page .section-header {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+  margin-bottom: 1.5rem;
+}
+
+.resume-page .section-header h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 1.75rem;
+  letter-spacing: -.05rem;
+  margin: 0;
+}
+
+.resume-page .page-header {
+  padding: 1.5rem 0;
+}
+
+.resume-page .page-header .avatar {
+  width: 95px;
+  max-width: 100%;
+  overflow: hidden;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.resume-page .page-header .header-name {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: -.15rem;
+  line-height: 1;
+  margin: 1rem 0 0;
+}
+
+.resume-page .page-header .header-contact-info {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.resume-page .page-header .header-contact-info p a {
+  color: inherit;
+}
+
+.resume-page .page-header .title-bar {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .4rem;
+  margin-top: 2rem;
+  padding: .4rem 0;
+}
+
+.resume-page .page-header .title-bar:before {
+  display: table;
+  content: "";
+}
+
+.resume-page .page-header .title-bar:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.resume-page .page-header .title-bar .header-title {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  letter-spacing: -.05rem;
+  text-align: center;
+  margin: 0 0 .5rem;
+}
+
+@media (min-width: 600px) {
+  .resume-page .page-header .title-bar .header-title {
+    float: left;
+    margin: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .resume-page .page-header .executive-summary {
+    font-size: 1.125rem;
+  }
+}
+
+.resume-page .icon-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  top: 4px;
+  text-align: center;
+  border-top: 2px solid #c7c7c7;
+  padding-top: .4rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .resume-page .icon-links {
+    float: right;
+    border-top: none;
+    padding-top: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.resume-page .icon-links .icon-link-item {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.resume-page .icon-links .icon-link {
+  display: inline-block;
+}
+
+.resume-page .icon-links .icon-link:hover .icon path {
+  fill: #333;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.resume-page .icon-links .icon {
+  height: 28px;
+}
+
+.resume-page .contact-button {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #efefef;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 1.5rem auto;
+  width: 220px;
+  font-size: 1.375rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  line-height: 55px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.resume-page .contact-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.resume-page .contact-button.not-looking {
+  width: 400px;
+}
+
+.resume-page .content-section {
+  margin: 0 0 3rem;
+}
+
+.resume-page .content-section .resume-item {
+  margin-bottom: 2rem;
+}
+
+.resume-page .content-section .resume-item-title {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 .75rem;
+  font-size: 1.5rem;
+  letter-spacing: -.05rem;
+  line-height: 1;
+}
+
+.resume-page .content-section .resume-item-details {
+  font-size: 1.125rem;
+  margin: 0 0 .75rem;
+  line-height: 1;
+}
+
+.resume-page .content-section .resume-item-details.award-title {
+  font-size: 1rem;
+}
+
+.resume-page .content-section .resume-item-title a,
+.resume-page .content-section .resume-item-details a,
+.resume-page .content-section .resume-item-copy a,
+.resume-page .content-section .resume-item-list a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.resume-page .content-section .resume-item-title a:hover,
+.resume-page .content-section .resume-item-details a:hover,
+.resume-page .content-section .resume-item-copy a:hover,
+.resume-page .content-section .resume-item-list a:hover {
+  border-bottom: none;
+  color: #9c9c9c;
+}
+
+.resume-page .content-section .resume-item-copy {
+  margin: .75rem 0 0;
+}
+
+.resume-page .page-footer {
+  border-top: 4px solid #c7c7c7;
+  padding-top: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.resume-page .page-footer .footer-line {
+  margin: 0 0 0 auto;
+  font-size: .875rem;
+  color: #999;
+}
+
+.resume-page .page-footer .footer-line > a {
+  font-weight: 700;
+  color: #333;
+}
+
+.resume-page .print-only {
+  display: none !important;
+}
+
+@media print {
+  .resume-page .no-print {
+    display: none !important;
+  }
+  .resume-page .print-only {
+    display: block !important;
+  }
+  .resume-page body {
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .resume-page .page-header {
+    padding: 1rem 0 .2rem;
+  }
+  .resume-page .page-header .header-name {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0 0 .2rem;
+  }
+  .resume-page .section-header {
+    border-top: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    padding: .2rem 0 .2rem;
+    margin-bottom: 1rem;
+  }
+  .resume-page .section-header h2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  .resume-page .content-section {
+    margin: 0 0 1rem;
+  }
+  .resume-page .content-section .resume-item {
+    margin-bottom: 1rem;
+  }
+  .resume-page .content-section .resume-item-title {
+    font-size: 16px;
+    line-height: .7em;
+  }
+  .resume-page .content-section .resume-item-details {
+    font-size: 12px;
+    margin: 0 0 .75rem;
+    line-height: .7em;
+    font-style: italic;
+  }
+  .resume-page .content-section .resume-item-details.award-title {
+    font-size: 11px;
+  }
 }
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
@@ -918,12 +1335,26 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .about {
   margin: 0 0 40px;
   text-align: center;
+}
+
+.about .resume-link {
+  color: #a0a0a0;
+}
+
+.about .resume-link a {
+  text-decoration: none;
+  color: #333030;
+  font-weight: 400;
+}
+
+.about .resume-link a:hover {
+  color: #a0a0a0;
 }
 
 .about .cover-author-image {
@@ -1277,7 +1708,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 0 20px 20px;
 }
 
@@ -1421,15 +1852,15 @@ a.newer-posts:hover {
   margin-right: 3px;
 }
 
-.search-wrapper .results-container li {
+.search-wrapper .results-container li a:before li {
   border-bottom: 1px solid #d1cfd1;
 }
 
-.search-wrapper .results-container li:last-child {
+.search-wrapper .results-container li a:before li:last-child {
   border: none;
 }
 
-.search-wrapper .results-container li a {
+.search-wrapper .results-container li a:before li a {
   text-decoration: none;
   color: #000;
   display: block;
@@ -1439,9 +1870,11 @@ a.newer-posts:hover {
   overflow: hidden;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
 }
 
-.search-wrapper .results-container li a:hover {
+.search-wrapper .results-container li a:before li a:hover {
   background: #f6f6f6;
 }
 
