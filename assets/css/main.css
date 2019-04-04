@@ -1352,7 +1352,7 @@ table tfoot td {
 }
 
 .about .resume-link a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #333030;
   font-weight: 400;
 }
