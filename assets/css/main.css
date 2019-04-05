@@ -1211,6 +1211,20 @@ table tfoot td {
   font-size: 1.5rem;
   letter-spacing: -.05rem;
   line-height: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resume-page .content-section .resume-item-title a {
+  font-weight: 200;
+  font-size: 1.2rem;
+  margin-left: 7px;
 }
 
 .resume-page .content-section .resume-item-details {
