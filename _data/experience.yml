@@ -5,7 +5,7 @@
     url: https://sysdig.com
   position: Software Developer
   duration: September, 2017 &mdash; Present
-  summary: Working on sysdig monitoring platform building Ember/React components and custom Data visualizaton components.
+  summary: Working on Sysdig monitoring platform building Ember/React components and custom Data visualizaton components.
 
 - company: Game Credits
   position: Software Developer
@@ -19,7 +19,7 @@
     name: www.sevenbridges.com
   position: Data visualization Team lead
   duration: May, 2013 &mdash; February, 2017
-  summary: Responsible for data visualization and javascript developmenet on the platform. Building automatied bootstraping CLI with node.js. Mainaining 2 backend services serving genomics data. 	<ul class="resume-item-list"><li>Working on seven bridges platform components</li><li>Building svg editor for creating DAG Graphs for analysing NGS</li><li>Building NodeJS Registry, storing tools and graphs.</li><li>Building AngularJS frontend for Registry service</li><li>Working in a team designing JSON Schema standard (Common Workflow Language) for defining graphs for NGS analysis</li><li>Building Nodejs CLI for automated environment bootsraping</li></ul>
+  summary: Responsible for data visualization and javascript developmenet on the platform. Building automatied bootstraping CLI with node.js. Mainaining 2 backend services serving genomics data. 	<ul class="resume-item-list"><li>Working on Seven Bridges platform components</li><li>Building SVG editor for creating DAG Graphs for analysing NGS data</li><li>Building NodeJS Registry, storing tools and graphs</li><li>Building AngularJS frontend for Registry service</li><li>Working in a team designing JSON Schema standard (Common Workflow Language) for defining graphs for NGS analysis</li><li>Building Nodejs CLI for automated environment bootsraping</li></ul>
 
 
 # Deployinc
@@ -29,7 +29,7 @@
     name: www.deployinc.com
   position: Front-end developer
   duration:  May, 2012 &mdash; May, 2013
-  summary: Responsible for javascript development including building HTML5 games, responsiv components and mobile apps. Some of the projects i worked on ':'	  <ul class="resume-item-list"><li>Designing third party javascript snippets for serving adds and games</li><li>Javascript components for variouse web apps</li><li>Mobile app for booking restaurants and payments in restaurants/</li><li>Desigining internal javascript apps build systems</li></ul>
+  summary: Responsible for javascript development including building HTML5 games, responsive components and mobile apps. Some of the projects I worked on  <ul class="resume-item-list"><li>Designing third party javascript snippets for serving adds and games</li><li>Javascript components for variouse web apps</li><li>Mobile app for booking restaurants and payments in restaurants</li><li>Desigining internal javascript apps build systems</li></ul>
 
 
 # Orange Studio
