@@ -2,6 +2,7 @@
 - url: "/33traps"
   label: 33 Traps
   img: 33traps.png
+  repo: "https://github.com/flipio/33traps"
   description: Game inspired by 33 traps board game
 - url: "https://flipio.github.io/react-d3-examples/"
   external: true
