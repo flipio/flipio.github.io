@@ -9,6 +9,8 @@
   display: flex;
   flex: 1;
   flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
 
   .experiment {
     display: flex;
@@ -18,14 +20,15 @@
     text-align: center;
     margin: 5px;
     flex-direction: column;
+    border: 1px solid #f3f3f3;
+
+    @include border-radius(10px);
 
     a,
     a:visited {
       text-decoration: none;
       color: $body-color;
     }
-
-    @include border-radius(10px);
 
     .experiment-cover {
       width: 100%;
