@@ -91,46 +91,48 @@ $icon-offset-left: 11px;
       list-style-type: none;
       margin: 0;
       padding: 0;
-    }
-
-    li:first-child {
-      margin-top: 4px;
-    }
-
-    li a:before {
-      display: inline-block;
-      // content: '-';
-      content: '\2022';
-      color: #d1cfd1;
-      padding-left: 4px;
-      margin-right: 3px;
-
 
       li {
         border-bottom: 1px solid #d1cfd1;
-      }
 
-      li:last-child {
-        border: none;
-      }
+        &:first-child {
+          margin-top: 4px;
+        }
 
-      li a {
-        text-decoration: none;
-        color: #000;
-        display: block;
-        width: 100%;
-        padding: 5px 0;
+        a:before {
+          display: inline-block;
+          // content: '-';
+          content: '\2022';
+          color: #d1cfd1;
+          padding-left: 4px;
+          margin-right: 3px;
+        }
 
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        &:last-child {
+          border: none;
+        }
 
-        border-radius: 4px;
+        a {
+          text-decoration: none;
+          color: #000;
+          display: block;
+          width: 100%;
+          padding: 5px 0;
 
-      }
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
 
-      li a:hover {
-        background: #f6f6f6;
+          border-radius: 4px;
+        }
+
+        a:hover {
+          background: #f6f6f6;
+        }
+
+        a:visited {
+          color: #000;
+        }
       }
     }
   }

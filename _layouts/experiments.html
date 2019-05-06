@@ -1,0 +1,31 @@
+---
+layout: main
+---
+{% assign coverImg = 'experiment.png' %}
+
+<article class="article-page experiments-page">
+    <div class="page-cover-image">
+        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : coverImg }} alt="Experiments">
+    </div> <!-- End Page Cover Image -->
+    <header class="header-page">
+<!--        <h1 class="page-title">Experiments</h1>-->
+    </header>
+    <div class="page-content">
+        <div class="experiments">
+        {% for experiment in site.data.experiments %}
+            {% assign link = experiment.url %}
+
+            <div class="experiment">
+                <div class="experiment-cover"><a href="{{ link }}" target="_blank"><img src={{ "/assets/img/" | prepend: site.baseurl | append : experiment.img}} alt="{{ experiments.label }}"></a></div>
+                <div class="experiment-title"><a href="{{ link }}" target="_blank">{{ experiment.label }}</a></div>
+                <div class="experiment-description">{% if experiment.description %}( {{ experiment.description }} ){% endif %}</div>
+                {% if experiment.repo %}
+                    <div class="experiment-repo">
+                        <a href="{{ experiment.repo }}" target="_blank" title="{{ experiment.repo }}">Github repo</a>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</article>

@@ -1,0 +1,11 @@
+# links
+- url: "/33traps"
+  label: 33 Traps
+  img: 33traps.png
+  description: Game inspired by 33 traps board game
+- url: "https://flipio.github.io/react-d3-examples/"
+  external: true
+  img: d3-react.png
+  label: D3 & React playground
+  repo: "https://github.com/flipio/react-d3-examples"
+  description: Playground with simple charts written with React and D3

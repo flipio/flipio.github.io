@@ -1,0 +1,50 @@
+@import '../variables';
+@import '../mixins';
+
+.experiments-page {
+  background-color: $body-background;
+}
+
+.experiments {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+
+  .experiment {
+    display: flex;
+    flex: 0 250px;
+    background: $white;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    flex-direction: column;
+
+    a,
+    a:visited {
+      text-decoration: none;
+      color: $body-color;
+    }
+
+    @include border-radius(10px);
+
+    .experiment-cover {
+      width: 100%;
+      height: auto;
+    }
+
+    .experiment-title {
+      color: $body-color;
+      font-size: 22px;
+      margin: 6px 0;
+    }
+
+    .experiment-description {
+      color: $dark-gray;
+      font-size: 15px;
+    }
+
+    .experiment-repo {
+      margin-top: 5px;
+    }
+  }
+}
