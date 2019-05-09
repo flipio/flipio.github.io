@@ -160,6 +160,19 @@ footer {
 .pinned-posts {
   display: flex;
   flex: 1 100%;
+
+  a {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color: $dark-blue;
+    cursor: pointer;
+  }
+
+  a, a:visited, a:hover {
+    color: $dark-blue;
+    text-decoration: none;
+  }
 }
 
 .post {

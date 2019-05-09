@@ -3,10 +3,12 @@ layout: main
 ---
 <div class="pinned-posts">
   <article class="post post-pinned">
-    <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : "experiment.png"}})" href="{{"/experiments" | prepend: site.baseurl}}"></a>
-    <div class="post-content">
-      <h2 class="post-title"><a href="{{"/experiments" | prepend: site.baseurl}}">Experiments</a></h2>
-    </div>
+    <a href="{{"/experiments" | prepend: site.baseurl}}">
+    <div class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : "experiment.png"}})" href="{{"/experiments" | prepend: site.baseurl}}"></div>
+      <div class="post-content">
+        <h2 class="post-title">Experiments</h2>
+      </div>
+    </a>
   </article>
 </div>
 

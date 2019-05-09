@@ -10,11 +10,18 @@
       width: 100%;
       flex-direction: row;
 
+      a .post-content .post-title {
+        font-size: 21px;
+      }
+
       .post-thumbnail {
         max-width: 40%;
       }
 
       .post-content {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
         padding: 0.9rem;
       }
     }
@@ -114,12 +121,18 @@
       flex-direction: row;
       width: 100%;
 
+      a .post-content .post-title {
+        font-size: 21px;
+      }
+
       .post-thumbnail {
         max-width: 40%;
+        display: none;
       }
 
       .post-content {
         padding: 0.9rem;
+        justify-content: center;
       }
     }
 
