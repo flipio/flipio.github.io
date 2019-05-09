@@ -12,7 +12,7 @@
   background-color: $white;
 }
 .about {
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   text-align: center;
 
   .resume-link {
@@ -67,6 +67,13 @@
       height: 7px;
       border-radius: 100%;
       background-color: $body-color;
+    }
+
+    a,
+    a:visited,
+    a:hover {
+      color: $dark;
+      text-decoration: none;
     }
   }
   p {
@@ -150,6 +157,11 @@ footer {
   }
 }
 
+.pinned-posts {
+  display: flex;
+  flex: 1 100%;
+}
+
 .post {
   width: 100%;
   max-width: 100%;
@@ -162,6 +174,16 @@ footer {
   overflow: hidden;
   transition: all .3s ease;
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
+
+  &.post-pinned {
+    min-height: 0;
+    max-height: 80px;
+
+    .post-content {
+      padding: 0.9rem;
+    }
+  }
+
   &:hover {
     transform: translate(0px, -2px);
     box-shadow: 0 15px 45px -10px rgba(10, 16, 34, .2);

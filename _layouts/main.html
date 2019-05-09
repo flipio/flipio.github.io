@@ -8,10 +8,9 @@ layout: default
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{site.author}}</div>
+      <div class="author-name"><a href="{{site.baseurl}}/">{{site.author}}</a></div>
       <p>{{site.about-author}}</p>
       <p class="resume-link">You can see my resume <a href="{{ "/resume" | prepend: site.baseurl }}">here</a>.</p>
-      <p class="resume-link">Experiments / Small projects <a href="{{ "/experiments" | prepend: site.baseurl }}">Experiments page</a></p>
     </div>
     {% include search.html %}
   </header> <!-- End Header -->

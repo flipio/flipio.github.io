@@ -1434,7 +1434,7 @@ table tfoot td {
 }
 
 .about {
-  margin: 0 0 40px;
+  margin: 0 0 30px;
   text-align: center;
 }
 
@@ -1504,6 +1504,13 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   background-color: #515151;
+}
+
+.about .author-name a,
+.about .author-name a:visited,
+.about .author-name a:hover {
+  color: #333030;
+  text-decoration: none;
 }
 
 .about p {
@@ -1611,6 +1618,17 @@ footer .copyright {
   margin: 0;
 }
 
+.pinned-posts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 100%;
+      -ms-flex: 1 100%;
+          flex: 1 100%;
+}
+
 .post {
   width: 100%;
   max-width: 100%;
@@ -1637,6 +1655,15 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+
+.post.post-pinned {
+  min-height: 0;
+  max-height: 80px;
+}
+
+.post.post-pinned .post-content {
+  padding: 0.9rem;
 }
 
 .post:hover {
@@ -1931,7 +1958,7 @@ a.newer-posts:hover {
 
 .search-wrapper .results-container ul {
   list-style-type: none;
-  margin: 0;
+  margin: 5px 0 0 0;
   padding: 0;
 }
 
@@ -1990,6 +2017,20 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .post.post-pinned {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .post.post-pinned .post-thumbnail {
+    max-width: 40%;
+  }
+  .post.post-pinned .post-content {
+    padding: 0.9rem;
+  }
   .post .post-thumbnail {
     width: 100%;
   }
@@ -2001,6 +2042,12 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  .experiments .experiment {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 48%;
+        -ms-flex: 1 48%;
+            flex: 1 48%;
   }
 }
 
@@ -2066,9 +2113,9 @@ a.newer-posts:hover {
   }
   .experiments .experiment {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 100%;
-        -ms-flex: 1 100%;
-            flex: 1 100%;
+    -webkit-flex: 1 48%;
+        -ms-flex: 1 48%;
+            flex: 1 48%;
   }
 }
 
@@ -2087,6 +2134,22 @@ a.newer-posts:hover {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .post.post-pinned {
+    min-height: 0;
+    max-height: 80px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 100%;
+  }
+  .post.post-pinned .post-thumbnail {
+    max-width: 40%;
+  }
+  .post.post-pinned .post-content {
+    padding: 0.9rem;
+  }
   .post .post-thumbnail {
     width: 100%;
   }
@@ -2098,5 +2161,11 @@ a.newer-posts:hover {
   }
   .post .post-content .post-title a {
     font-size: 21px;
+  }
+  .experiments .experiment {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 100%;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
   }
 }

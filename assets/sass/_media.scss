@@ -6,6 +6,19 @@
     margin: 0 0.9% 1.5%;
     flex-direction: column;
 
+    &.post-pinned {
+      width: 100%;
+      flex-direction: row;
+
+      .post-thumbnail {
+        max-width: 40%;
+      }
+
+      .post-content {
+        padding: 0.9rem;
+      }
+    }
+
     .post-thumbnail {
       width: 100%;
     }
@@ -22,6 +35,13 @@
       }
     }
   }
+
+  .experiments {
+    .experiment {
+      flex: 1 48%;
+    }
+  }
+
 }
 
 /* Small Devices, Tablets */
@@ -70,7 +90,7 @@
 
   .experiments {
     .experiment {
-      flex: 1 100%;
+      flex: 1 48%;
     }
   }
 
@@ -81,11 +101,28 @@
   .content-box {
     padding: 10px;
   }
+
   .post {
     width: 98%;
     max-width: 100%;
     margin: 2%;
     flex-direction: column;
+
+    &.post-pinned {
+      min-height: 0;
+      max-height: 80px;
+      flex-direction: row;
+      width: 100%;
+
+      .post-thumbnail {
+        max-width: 40%;
+      }
+
+      .post-content {
+        padding: 0.9rem;
+      }
+    }
+
 
     .post-thumbnail {
       width: 100%;
@@ -103,4 +140,11 @@
       }
     }
   }
+
+  .experiments {
+    .experiment {
+      flex: 1 100%;
+    }
+  }
+
 }
