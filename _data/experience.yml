@@ -1,10 +1,19 @@
 # Jobs
+- company: Everseen
+  website:
+    name: www.everseen.com
+    url: https://www.everseen.com
+  position: Head of Frontend
+  duration: March, 2020 &mdash; Present
+  summary: Working on Everseen platform, desinging & building new products.
+
+# Sysdig
 - company: Sysdig inc.
   website:
     name: www.sysdig.com
     url: https://sysdig.com
   position: Software Developer
-  duration: September, 2018 &mdash; Present
+  duration: September, 2018 &mdash; February, 2020
   summary: Working on Sysdig monitoring platform building Ember/React components and custom Data visualizaton components.
 
 - company: Game Credits
