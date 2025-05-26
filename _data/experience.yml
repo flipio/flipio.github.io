@@ -3,8 +3,16 @@
   website:
     name: www.everseen.com
     url: https://www.everseen.com
+  position: Senior Engineering Manager
+  duration: March, 2024 &mdash; Present
+  summary: Building new Products & Managing teams @Everseen 
+
+- company: Everseen
+  website:
+    name: www.everseen.com
+    url: https://www.everseen.com
   position: Head of Frontend
-  duration: March, 2020 &mdash; Present
+  duration: March, 2020 &mdash; March, 2024
   summary: Working on Everseen platform, desinging & building new products.
 
 # Sysdig
